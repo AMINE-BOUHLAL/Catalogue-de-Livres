@@ -17,6 +17,7 @@ public class Book {
     private Long id;
     private String title;
     private String isbn;
+    private
     @ManyToAny
     @JoinColumn(name = "book")
     private String author;
